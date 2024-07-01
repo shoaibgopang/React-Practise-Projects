@@ -1,0 +1,73 @@
+:root{
+    --primary-color: rgba(15, 91, 127, 0.97);
+
+}
+
+body {
+  background-color: rgba(229, 229, 229, 0.35);
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  padding: 100px;
+  gap: 20px;
+}
+
+#name {
+  display: flex;
+  flex-direction: column;
+}
+.eachname {
+    color: var(--primary-color);
+  width: fit-content;
+  margin: 0px 0px 20px 0px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #container {
+    grid-template-columns: 1fr;
+    padding: 50px;
+  }
+
+  #name {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .eachname {
+    padding: 0px 5px;
+  }
+}
+
+.title {
+  font-size: 22px;
+  margin: 0px;
+  margin-bottom: 0px;
+  margin-bottom: 12px;
+}
+
+.company {
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 3px;
+  display: initial;
+  font-size: 15px;
+}
+
+.dutydiv {
+  display: flex;
+  align-items: center;
+}
+
+.arrowimg {
+  padding-right: 25px;
+  color: var(--primary-color);
+  width: 3%;
+}
+
+
+.dates{
+    color: rgba(0,0,0,0.6);
+}
+
