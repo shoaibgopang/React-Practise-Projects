@@ -1,0 +1,50 @@
+body{
+  background-color: #fafafa;
+  font-family: sans serif;
+  letter-spacing: 0.1px;
+}
+#formdiv{
+    width: 80vw;
+    text-align: center;
+    margin: 50px auto; 
+}
+
+#title{
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+#submitbutton{
+border-radius: 6px;
+border: none;
+background-color: #6eca74;
+font-size: 16px;
+margin-left: 10px;
+padding: 7px;
+}
+
+#submitbutton:hover{
+  cursor:pointer;
+}
+
+.eachparagraph{
+  padding: 15px 150px;
+  text-align: left;
+  color: rgba(0,0,0,0.90);
+  line-height: 40px;
+}
+
+input{
+width: 42px;
+border: none;
+background-color: #cacaee;
+padding: 3px 5px;
+border-radius: 6px;
+font-size: 18px;
+}
+
+label{
+    font-size: 19px;
+    letter-spacing: 0.5px;
+}
