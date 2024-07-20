@@ -1,0 +1,54 @@
+form{
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.showcolourdiv{
+    height: 11vw;
+    padding: 9px;
+}   
+
+#colorsdiv{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(130px,1fr));
+    gap: 0;
+    margin: 0;
+
+}
+
+.colorname{
+    padding-top: 5px;
+}
+
+#colortext{
+    font-size: 20px;
+    padding: 0px 10px 0px 50px;
+    
+}
+
+#colorpicker{
+    padding: 0px;
+margin-right: 1px;
+border-radius: 4px;
+border-right-width: 0px;
+border-right-style: solid;
+border-left-width: 0px;
+border-left-style: solid;
+border-top-width: 0px;
+border-top-style: solid;
+border-bottom-width: 0px;
+border-bottom-style: solid;
+}
+
+#submitbutton{
+    margin-left: 4px;
+border: none;
+box-shadow: 3px 1px 6px -3px;
+padding: 4px;
+}
+#textbox{
+    width: 64px;
+height: 27px;
+}
